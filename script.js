@@ -78,19 +78,20 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: 'What is the best city in the world',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: 'Houston', correct: true },
+      { text: 'NY', correct: false },
+      { text: 'LA', correct: false }
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'Who is the best PM certification?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'Prince', correct: true },
+      { text: 'IPMA', correct: true },
+      { text: 'PMP', correct: true },
+      { text: 'Scrum', correct: true }
     ]
   },
   {
@@ -103,10 +104,10 @@ const questions = [
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: 'What is the best food ?',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'ice - cream', correct: false },
+      { text: 'hamburger', correct: true }
     ]
   }
 ]
